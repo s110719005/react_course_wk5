@@ -25,10 +25,7 @@ export default function CartSummary() {
         </Badge>
         <p className="cart-summary-text"> Shopping bag </p>
       </nav>
-      <CartModal
-        isModalVisible={isModalVisible}
-        toggleModal={toggleModal}
-      />
+      
     </>
   );
 }
